@@ -39,9 +39,9 @@ var daily = smap.map(function(img){
 });
 var dailyFC = ee.FeatureCollection(daily);
 
-// Build a climatology (e.g., 2016–2020)
-var baseStart = '2016-01-01';
-var baseEnd   = '2020-12-31';
+// Build a climatology (e.g., 2023-2024)
+var baseStart = '2023-01-01';
+var baseEnd   = '2024-12-31';
 var base = dailyFC.filter(ee.Filter.date(baseStart, baseEnd));
 
 function doy(dateStr){
