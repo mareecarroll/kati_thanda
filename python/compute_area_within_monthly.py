@@ -12,7 +12,7 @@ catalog = Client.open("https://planetarycomputer.microsoft.com/api/stac/v1")
 search = catalog.search(
     collections=["sentinel-2-l2a"],
     intersects=geom,
-    datetime="2020-01-01/2026-12-31",
+    datetime="2025-04-01/2025-07-31",
     query={"eo:cloud_cover": {"lt": 80}},
 )
 items = list(search.get_all_items())
@@ -22,7 +22,6 @@ dc = odc.stac.load(
     items,
     chunks={"x": 2048, "y": 2048},
     bands=["B03", "B11", "SCL"],
-    stac_cfg=odc.stac.DefaultODCCfg,
     crs="EPSG:3577",  # Australian Albers
     resolution=10,
 )
