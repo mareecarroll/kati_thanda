@@ -1,6 +1,6 @@
 # Kati Thanda
 
-Maree—Lake Eyre/Kati Thanda is one of the best places on Earth to showcase how flood pulses travel across vast arid landscapes. 
+Lake Eyre/Kati Thanda is one of the best places on Earth to showcase how flood pulses travel across vast arid landscapes. 
 
 To “show off the change in moisture” you can tell the story with two complementary signals:
 
@@ -23,14 +23,9 @@ Arrival and Peak: Water began entering the northern side of Lake Eyre around the
 
 #### Animations and Satellite Imagery
 Various animations, created from satellite data (NASA MODIS, Landsat 8/9, and BOM imagery), show the transformation from April to June 2025: 
-* NASA Earth Observatory (April 29 – June 12, 2025): This animation shows the water entering the north side of the basin and spreading over 120 km to Madigan Gulf and Belt Bay.
+* [NASA Science: "Water Pours Into Australia's Lake Eyre"](https://science.nasa.gov/earth/earth-observatory/water-pours-into-australias-lake-eyre-154451/) especially the [animation link itself](https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/154000/154451/lakeeyre_tmo_20250612.mp4)
+* Bureau of Meteorology (BOM): Social media updates, particularly in May/June 2025. e.g. [Queensland floods: the water journey to Kati Thanda-Lake Eyre](https://www.bom.gov.au/video/queensland-floods-the-water-journey-to-kati-thanda-lake-eyre)
 * Bureau of Meteorology (March - May 2025): A satellite loop showing the water travelling through the river channels, such as Cooper Creek and the Warburton River.
-* Social Media Footage (May 2025): Numerous time-lapse videos from sources like SeQldWeatherPhotography (NASA Worldview) highlight the rapid filling of the lake's bed. 
-
-Where to View the Animation
-* NASA Science: "Water Pours Into Australia's Lake Eyre".
-* Bureau of Meteorology (BOM): Social media updates, particularly in May/June 2025.
-* YouTube: Searches for "Lake Eyre fills 2025" or "Queensland floods to Lake Eyre animation". 
 
 The floodwaters are expected to remain for several months, with the lake potentially holding water for up to a year. 
 
