@@ -1,5 +1,5 @@
 // ========== SETTINGS ==========
-var lakeEyreAOI == ee.Geometry.Polygon(
+var lakeEyreAOI = ee.Geometry.Polygon(
   [
     [136.74335937499998,-28.09237505565586],
     [136.88618164062498,-28.227977535979104],
