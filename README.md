@@ -9,6 +9,30 @@ To “show off the change in moisture” you can tell the story with two complem
 
 Using Google Earth Engine and Python, and Using NASA Worldview for quick visual QA and event scoping. Using **Earth Engine** or **Python + STAC** for reproducibility.
 
+## Significant events in recent times
+
+### 2025 March/April to June
+
+In 2025, a rare and significant flooding event saw massive amounts of water travel over 1,000 kilometers from Western Queensland down to Kati Thanda–Lake Eyre in South Australia, transforming the arid salt pan into a sprawling inland sea. The event, driven by record-breaking March/April rainfalls, resulted in one of the largest fillings of the lake in over 50 years. 
+
+#### Key Aspects of the 2025 Flood Event
+* **The Journey**: Floodwaters originated from heavy autumn rainfall in southwest Queensland (affecting towns like Windorah and Birdsville) and moved through the Channel Country, filling the Diamantina and Warburton river systems before reaching the lake.
+Arrival and Peak: Water began entering the northern side of Lake Eyre around the start of May 2025, with major flows continuing through June and July. By July, it was estimated that up to 90% of the lake was covered in water.
+* **Significance**: This is a "once-in-a-generation" event,, with some observers comparing it to the major 1974 flood.
+* **Impact**: The water has brought new life to the desert, attracting millions of waterbirds to breed and triggering a massive bloom in aquatic species. 
+
+#### Animations and Satellite Imagery
+Various animations, created from satellite data (NASA MODIS, Landsat 8/9, and BOM imagery), show the transformation from April to June 2025: 
+* NASA Earth Observatory (April 29 – June 12, 2025): This animation shows the water entering the north side of the basin and spreading over 120 km to Madigan Gulf and Belt Bay.
+* Bureau of Meteorology (March - May 2025): A satellite loop showing the water travelling through the river channels, such as Cooper Creek and the Warburton River.
+* Social Media Footage (May 2025): Numerous time-lapse videos from sources like SeQldWeatherPhotography (NASA Worldview) highlight the rapid filling of the lake's bed. 
+
+Where to View the Animation
+* NASA Science: "Water Pours Into Australia's Lake Eyre".
+* Bureau of Meteorology (BOM): Social media updates, particularly in May/June 2025.
+* YouTube: Searches for "Lake Eyre fills 2025" or "Queensland floods to Lake Eyre animation". 
+
+The floodwaters are expected to remain for several months, with the lake potentially holding water for up to a year. 
 
 ## What to Measure
 
