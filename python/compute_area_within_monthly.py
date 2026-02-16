@@ -4,7 +4,7 @@ from pystac_client import Client
 from shapely.geometry import mapping
 
 # 1) Load AOI (Lake Eyre polygon)
-aoi = gpd.read_file("aoi_lake_eyre.geojson").to_crs(4326)
+aoi = gpd.read_file("../data/aoi_lake_eyre.geojson").to_crs(4326)
 geom = mapping(aoi.unary_union)
 
 # 2) Query Sentinel-2 Level-2A via STAC (Planetary Computer or element84)
