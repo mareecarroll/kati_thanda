@@ -1,5 +1,6 @@
 import geopandas as gpd
 import odc.stac
+from planetary_computer import sign
 from pystac_client import Client
 from shapely.geometry import mapping
 
@@ -16,6 +17,7 @@ search = catalog.search(
     query={"eo:cloud_cover": {"lt": 80}},
 )
 items = list(search.get_all_items())
+items = [sign(item) for item in items]
 
 # 3) Load to xarray DataArray
 dc = odc.stac.load(
