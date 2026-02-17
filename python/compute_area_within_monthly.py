@@ -1,6 +1,6 @@
 import geopandas as gpd
 import odc.stac
-from planetary_computer import sign
+import planetary_computer
 from pystac_client import Client
 from shapely.geometry import mapping
 
@@ -9,7 +9,10 @@ aoi = gpd.read_file("../data/aoi_lake_eyre.geojson").to_crs(4326)
 geom = mapping(aoi.unary_union)
 
 # 2) Query Sentinel-2 Level-2A via STAC (Planetary Computer or element84)
-catalog = Client.open("https://planetarycomputer.microsoft.com/api/stac/v1")
+catalog = Client.open(
+    "https://planetarycomputer.microsoft.com/api/stac/v1",
+    modifier=planetary_computer.sign_inplace,
+)
 search = catalog.search(
     collections=["sentinel-2-l2a"],
     intersects=geom,
@@ -17,7 +20,6 @@ search = catalog.search(
     query={"eo:cloud_cover": {"lt": 80}},
 )
 items = list(search.get_all_items())
-items = [sign(item) for item in items]
 
 # 3) Load to xarray DataArray
 dc = odc.stac.load(
